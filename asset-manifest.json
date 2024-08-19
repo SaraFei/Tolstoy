@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f855e6bc.css",
+    "main.js": "/static/js/main.8c9027dc.js",
+    "static/js/453.814358f2.chunk.js": "/static/js/453.814358f2.chunk.js",
+    "static/media/defultImg.jpeg": "/static/media/defultImg.6dd23107022d8e34e5b9.jpeg",
+    "static/media/formBGColor.jpeg": "/static/media/formBGColor.035be9c4bb905aa23eba.jpeg",
+    "index.html": "/index.html",
+    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
+    "main.8c9027dc.js.map": "/static/js/main.8c9027dc.js.map",
+    "453.814358f2.chunk.js.map": "/static/js/453.814358f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8c9027dc.js"
+  ]
+}
