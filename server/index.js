@@ -10,8 +10,13 @@ import dataWebRouter from "./routs/DataWeb.js"
 config();
 const app=express();
 app.use(express.json());
-app.use(cors({ origin: "*" }));//During development allows all sources
-
+// app.use(cors({ origin: "*" }));//During development allows all sources
+app.use(cors({
+    origin: 'https://client-alpha-two.vercel.app', // כתובת ה-URL של ה-client שלך
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
+  }));
+  
 const limiter = rateLimit({
     windowMs: 1000, // 1 second window
     max: 5, // Limit each IP to 5 requests per windowMs
