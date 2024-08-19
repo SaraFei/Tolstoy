@@ -1,4 +1,4 @@
-Here's a README file for your project:
+Here's how you can update your README file to include details about the tests you performed:
 
 ---
 
@@ -90,6 +90,22 @@ Visit `http://localhost:3000` in your browser. You can input a list of URLs in t
 
 ## Testing
 
+### Front-End (React)
+- **Test Cases:**
+  - Valid URL input: Ensure the form accepts and processes valid URLs.
+  - Handle empty fields: Verify that the form does not send requests with empty fields.
+  - Default values: Ensure default values are used if some metadata fields are missing.
+  - Error handling: Check that appropriate error messages are shown for invalid URLs or failed metadata retrieval.
+  - Request prevention: Confirm that the form prevents sending invalid requests to the server.
+
+### Back-End (Node.js)
+- **Test Cases:**
+  - Valid URL handling: Verify that the server correctly processes and retrieves metadata for valid URLs.
+  - Empty fields: Ensure that the server rejects requests with empty fields and returns an appropriate error.
+  - Default values: Check that default values are provided for any missing metadata fields.
+  - Error responses: Test that the server returns appropriate error responses for invalid URLs and network issues.
+  - Rate limiting: Confirm that the server enforces the rate limit of 5 requests per second.
+
 To run the tests, navigate to the client and server directories and use the following commands:
 
 - **Client Tests:**
@@ -128,6 +144,5 @@ Here are some screenshots of the project:
 ![results  ](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/results.png)
 ![ progress ](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/progress.png)
 
-
-
 ---
+
