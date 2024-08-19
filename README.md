@@ -121,6 +121,13 @@ This project is licensed under the MIT License.
 
 Here are some screenshots of the project:
 
+![Add input option](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/addinputOption.png)
+![defaultImage](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/defaultImage.png)
+![defaultInput](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/defaultInput.png)
+![validation  ](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/validation.png)
+![results  ](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/results.png)
+![ progress ](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/progress.png)
+
 
 
 ---

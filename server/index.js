@@ -10,7 +10,7 @@ import dataWebRouter from "./routs/DataWeb.js"
 config();
 const app=express();
 app.use(express.json());
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: "*" }));//During development allows all sources
 
 const limiter = rateLimit({
     windowMs: 1000, // 1 second window

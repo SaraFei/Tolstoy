@@ -11,7 +11,7 @@ const fetchMetadata = async (req, res) => {
     }
 
     try {
-        const results = [];
+        const results = [];//Return array
 
         for (const url of urls) {
             // Validate the URL format

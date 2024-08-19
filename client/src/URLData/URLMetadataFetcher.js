@@ -1,6 +1,9 @@
 //Web url filling form for information request.
-//and viewing the received information
 
+//There are 3 display options for this component
+//1. Presentation of input for input
+//2. Loading the answer from the server - a display that makes the user stay on the site at this time
+//3 Presentation of the information
 import React, { useState } from 'react';
 import { useForm, Controller } from 'react-hook-form';
 import Joi from 'joi';
