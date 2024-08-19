@@ -9,12 +9,6 @@ import Typography from '@mui/material/Typography';
 //defult img
 import defaultImg from "./imges/defultImg.jpeg"
 
-// Default image URL
-const defaultImage = 'https://via.placeholder.com/140';
-
-
-
-
 
 const SignleUrlData = ({ url }) => {
     const imageUrl = url.image || defaultImg; // Use default image if url.image is not available
