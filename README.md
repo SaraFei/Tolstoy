@@ -1,6 +1,3 @@
-Here's how you can update your README file to include details about the tests you performed:
-
----
 
 # URL Metadata Fetcher
 
@@ -144,5 +141,5 @@ Here are some screenshots of the project:
 ![results  ](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/results.png)
 ![ progress ](https://github.com/SaraFei/Tolstoy/blob/master/screenshot/progress.png)
 
----
+
 
